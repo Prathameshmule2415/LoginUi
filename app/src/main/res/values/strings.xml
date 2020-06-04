@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginUi</string>
+    <string name="email">Enter Username or Email Id</string>
+    <string name="password">Enter Password</string>
+    <string name="logo_title">Welcome To Airbnb</string>
+    <string name="btn_google">Log In With Google</string>
+    <string name="btn_facebook">Log In With Facebook</string>
+    <string name="str_ename">Enter your Full name</string>
+    <string name="str_eemail">Enter your Email Address</string>
+    <string name="str_epassword">Enter your Password</string>
+    <string name="str_erepassword">Re-Type your Password</string>
+    <string name="btn_signup">Signup</string>
+    <string name="tview_member">Already member ? Sign In here..</string>
+    <string name="btn_signin">SignIn</string>
+</resources>
