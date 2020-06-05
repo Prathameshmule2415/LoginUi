@@ -6,8 +6,8 @@
     android:layout_gravity="center_horizontal"
     android:gravity="center"
     android:layout_marginTop="20dp"
-    android:layout_marginBottom="20dp">
-
+    android:layout_marginBottom="20dp"
+>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,8 +28,7 @@
         android:layout_marginBottom="10dp"
         android:textColorHint="@color/colorGray"
         android:textColor="@color/colorBlack"
-        android:background="@drawable/edittextshape"
-/>
+        android:background="@drawable/edittextshape"/>
 
     <TextView
         android:layout_width="wrap_content"

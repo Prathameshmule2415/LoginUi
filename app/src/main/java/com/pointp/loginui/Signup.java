@@ -25,5 +25,4 @@ public class Signup extends AppCompatActivity {
         ft.add(id,obj,tag);
         ft.commit();
     }
-
 }

@@ -10,19 +10,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity  /* implements View.OnClickListener*/ g{
+public class MainActivity extends AppCompatActivity {
 
-    Button btn_sup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//
-//        btn_sup=findViewById(R.id.btn_signup);
-//
-//        btn_sup.setOnClickListener(this);
-
 
         LoadFragment(R.id.topPanel,new LogoFragment(),"Login Fragment");
         LoadFragment(R.id.middlePanel,new LoginFragment(),"Login Fragment");
@@ -35,16 +29,6 @@ public class MainActivity extends AppCompatActivity  /* implements View.OnClickL
         ft.add(id,obj,tag);
         ft.commit();
     }
-//
-//    @Override
-//    public void onClick(View v) {
-//        switch (v.getId()){
-//            case R.id.btn_signup:
-//                Intent intent = new Intent(MainActivity.this,Signup.class);
-//                startActivity(intent);
-//                break;
-//        }
-//    }
 }
 
 
